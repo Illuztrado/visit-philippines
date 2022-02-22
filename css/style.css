@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  height: 1080px;
+  background: url("../images/more-fun.png") 0 10% no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-family: Calibri, 'Trebuchet MS','Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+h1 {
+  color: orange;
+  margin: 160px 0 200px 0;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+  margin: 0 15px;
+  border: 2.5px solid #fff;
+  border-radius: 5px;
+  background: rgba(20,20,20,.3);
+  color: #fff;
+}
+
+li:hover {
+  background: rgba(0,0,0,.6);
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
